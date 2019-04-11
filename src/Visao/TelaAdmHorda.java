@@ -151,6 +151,7 @@ public class TelaAdmHorda extends javax.swing.JFrame {
                                        
             h.setRegiaohorda((String)txt_RegiaoAdmHorda.getSelectedItem());
             h.setOrdenshorda(txt_ComandosAdmHorda.getText());
+            h.setStatus("Em andamento");
             
             
             dao.ordenar(h);
